@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Carosello</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		
+		<link rel="stylesheet" type="text/css" href="css/jquery.carosello.css" />
+		<link rel="stylesheet" type="text/css" href="css/example.css" />
+		
+		<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery.carosello.js"></script>
+	</head>
+	<body>
+		
+
+		<div class="carosello">
+
+			<nav class="c-navigation">
+				<div class="c-arrow c-previous">
+					<a> &lt; </a>
+				</div>
+
+				<ul class="c-index">
+					<li class="c-pointer">
+						<a>h1</a>
+					</li>
+				</ul>
+
+				<div class="c-arrow c-next">
+					<a> &gt; </a>
+				</div>
+			</nav>
+
+			<ul class="c-contents">
+				
+				<li class="c-content">
+					<article>
+						<figure>
+							<img src="http://upload.wikimedia.org/wikipedia/it/9/9e/Carosello_1963.png" alt="Carosello">
+						</figure>
+						
+						<header>
+							<p class="category">Carosello</p>
+							<h1>Programma televisivo italiano</h1>
+						</header>
+						<p class="summary">
+							Carosello è stato un programma televisivo italiano andato in onda sul Programma Nazionale e poi sulla Rete 1 della Rai dal 3 febbraio 1957 al 1º gennaio 1977.
+						</p>
+					</article>
+				</li>
+				
+				<li class="c-content">
+					<article>
+						<figure>
+							<img src="http://marteau7927.files.wordpress.com/2013/05/carosello1.jpg" alt="Carosello">
+						</figure>
+						
+						<header>
+							<p class="category">Carosello</p>
+							<h1>Consisteva in una serie di filmati</h1>
+						</header>
+						<p class="summary">
+							Consisteva in una serie di filmati (spesso sketch comici sullo stile del teatro leggero o intermezzi musicali) seguiti da messaggi pubblicitari.
+						</p>
+					</article>
+				</li>
+				
+				<li class="c-content">
+					<article>
+						<figure>
+							<img src="http://blog.leiweb.it/claudio-castellacci/files/2013/04/Carosello.jpg" alt="Carosello">
+						</figure>
+						
+						<header>
+							<p class="category">Carosello</p>
+							<h1>Le nuove generazioni non lo conoscono</h1>
+						</header>
+						<p class="summary">
+							Consisteva in una serie di filmati (spesso sketch comici sullo stile del teatro leggero o intermezzi musicali) seguiti da messaggi pubblicitari.
+						</p>
+					</article>
+				</li>
+				
+			</ul>
+
+		</div>
+		
+		<hr>
+
+		<div class="carosello">
+
+			<nav class="c-navigation">
+				<div class="c-arrow c-previous">
+					<a> &lt; </a>
+				</div>
+
+				<ul class="c-index">
+					<li class="c-pointer">
+						<a>h1</a>
+					</li>
+				</ul>
+
+				<div class="c-arrow c-next">
+					<a> &gt; </a>
+				</div>
+			</nav>
+
+			<ul class="c-contents">
+				
+				<li class="c-content">
+					<article>
+						<figure>
+							<img src="http://upload.wikimedia.org/wikipedia/it/9/9e/Carosello_1963.png" alt="Carosello">
+						</figure>
+						
+						<header>
+							<p class="category">Carosello</p>
+							<h1>Programma televisivo italiano</h1>
+						</header>
+						<p class="summary">
+							Carosello è stato un programma televisivo italiano andato in onda sul Programma Nazionale e poi sulla Rete 1 della Rai dal 3 febbraio 1957 al 1º gennaio 1977.
+						</p>
+					</article>
+				</li>
+				
+				<li class="c-content">
+					<article>
+						<figure>
+							<img src="http://marteau7927.files.wordpress.com/2013/05/carosello1.jpg" alt="Carosello">
+						</figure>
+						
+						<header>
+							<p class="category">Carosello</p>
+							<h1>Consisteva in una serie di filmati</h1>
+						</header>
+						<p class="summary">
+							Consisteva in una serie di filmati (spesso sketch comici sullo stile del teatro leggero o intermezzi musicali) seguiti da messaggi pubblicitari.
+						</p>
+					</article>
+				</li>
+				
+				<li class="c-content">
+					<article>
+						<figure>
+							<img src="http://blog.leiweb.it/claudio-castellacci/files/2013/04/Carosello.jpg" alt="Carosello">
+						</figure>
+						
+						<header>
+							<p class="category">Carosello</p>
+							<h1>Le nuove generazioni non lo conoscono</h1>
+						</header>
+						<p class="summary">
+							Consisteva in una serie di filmati (spesso sketch comici sullo stile del teatro leggero o intermezzi musicali) seguiti da messaggi pubblicitari.
+						</p>
+					</article>
+				</li>
+				
+			</ul>
+
+		</div>
+
+		<script>
+			$(".carosello").carosello({
+				autoplay: 5000,
+				animationSpeed: 3000
+			});
+		</script>
+	</body>
+</html>

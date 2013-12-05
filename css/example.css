@@ -1,0 +1,99 @@
+.carosello {
+	position: relative;
+	width: 960px;
+	height: 300px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	overflow: hidden;
+}
+
+.carosello ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.carosello .c-navigation {
+	width: 300px;
+	height: 25px;
+	line-height: 25px;
+	background-color: #d6dbdf;
+	color: white;
+	font-weight: bold;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	z-index: 2;
+}
+
+.carosello .c-arrow {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 40px;
+	text-align: center;
+}
+.carosello .c-arrow:hover {
+	background-color: #c0392b;
+}
+
+.carosello .c-arrow.c-previous {
+	left: 0;
+	border-right: 1px solid white;
+}
+.carosello .c-arrow.c-next {
+	right: 0;
+	border-left: 1px solid white;
+}
+
+.carosello .c-index {
+	text-align: center;
+	padding: 0 10px;
+	margin: 0 auto;
+	width: 220px;
+}
+
+.carosello .c-pointer {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background-color: white;
+	margin: 0 5px;
+}
+.carosello .c-pointer.showing, .carosello .c-pointer:hover {
+	background-color: #c0392b;
+}
+
+.carosello .c-pointer a {display: none;}
+
+.carosello article {
+	background-color: #c0392b;
+	height: 300px;
+	color: white;
+	font-family: sans-serif;
+}
+
+.carosello article figure {
+	padding: 0;
+	margin: 0 20px 0 0;
+	float: left;
+	width: 650px;
+	height: 100%;
+	overflow: hidden;
+}
+
+.carosello article figure img {
+	width: 100%;
+}
+
+.carosello article header, article .summary {
+	padding: 10px 20px 0 20px;
+}
