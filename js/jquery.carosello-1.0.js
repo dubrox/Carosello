@@ -1,5 +1,6 @@
 /*
  * Carosello v1.0
+ * https://github.com/dubrox/Carosello
  * 
  * Copyright 2013, Luca Lauretta
  * Dual licensed under the MIT or GPL version 2 licenses.
